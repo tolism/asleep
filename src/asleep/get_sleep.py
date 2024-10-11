@@ -308,7 +308,7 @@ def main():
 
     args.outdir = os.path.join(args.outdir, filename)
     print("Saving files to dir: {}".format(args.outdir))
-
+    #
     raw_data_path = os.path.join(args.outdir, 'raw.csv')
     info_data_path = os.path.join(args.outdir, 'info.json')
     data2model_path = os.path.join(args.outdir, 'data2model.npy')
